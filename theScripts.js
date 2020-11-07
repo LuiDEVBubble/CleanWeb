@@ -28,11 +28,8 @@
          }
          else
          {
-            
-            alert( "Thanks for filling out the form!" );
-            
+            window.location.href = "thankYouPage.html";
             return true;
-            
          }
         
       }
@@ -40,5 +37,12 @@
       function redirect()
       {
          window.location.href = "thankYouPage.html";
+      }
+      
+      function greyOut()
+      {
+         // document.getElementById("formID").style.opacity = 1;
+         // document.body.style.opacity = .5;
+         // document.body.style.backgroundImage = 
       }
       
