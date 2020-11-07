@@ -34,10 +34,10 @@
         
       }
 
-      function redirect()
-      {
-         window.location.href = "thankYouPage.html";
-      }
+      // function redirect()
+      // {
+      //    window.location.href = "thankYouPage.html";
+      // }
       
       function greyOut()
       {
